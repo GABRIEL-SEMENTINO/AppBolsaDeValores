@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.unipar.bolsadevalores.ResultadoActivity">
+
+
+    <TextView
+        android:id="@+id/edlpa"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/lucroPorAcao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edLpa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/edlpa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edlpa"
+        app:layout_constraintTop_toBottomOf="@+id/edlpa" />
+
+    <TextView
+        android:id="@+id/precoLucro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/precoLucro"
+        app:layout_constraintEnd_toEndOf="@+id/edLpa"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edLpa"
+        app:layout_constraintTop_toBottomOf="@+id/edLpa" />
+
+    <EditText
+        android:id="@+id/edPl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/precoLucro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/precoLucro"
+        app:layout_constraintTop_toBottomOf="@+id/precoLucro" />
+
+    <TextView
+        android:id="@+id/roe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/retornoSobreOPatrimonioLiquido"
+        app:layout_constraintEnd_toEndOf="@+id/edPl"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edPl"
+        app:layout_constraintTop_toBottomOf="@+id/edPl" />
+
+    <EditText
+        android:id="@+id/edRoe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/roe"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/roe"
+        app:layout_constraintTop_toBottomOf="@+id/roe" />
+
+    <TextView
+        android:id="@+id/vpa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/valorPatromonialPorAcao"
+        app:layout_constraintEnd_toEndOf="@+id/edRoe"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edRoe"
+        app:layout_constraintTop_toBottomOf="@+id/edRoe" />
+
+    <EditText
+        android:id="@+id/edVpa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/vpa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vpa"
+        app:layout_constraintTop_toBottomOf="@+id/vpa" />
+
+    <TextView
+        android:id="@+id/pvp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/precoSobreOValorPatromonial"
+        app:layout_constraintEnd_toEndOf="@+id/edVpa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edVpa"
+        app:layout_constraintTop_toBottomOf="@+id/edVpa" />
+
+    <EditText
+        android:id="@+id/edpvp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pvp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pvp"
+        app:layout_constraintTop_toBottomOf="@+id/pvp"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

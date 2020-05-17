@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Álcool ou Gasolina</string>
+    <string name="Informar_preço">Informar Preço</string>
+    <string name="preco_alcool">Preço do Álcool</string>
+    <string name="preco_gasolina">Preço da Gasolina</string>
+    <string name="informar_preco">Informar Preço</string>
+    <string name="ativo">Ativo</string>
+    <string name="editAtivo">Digite o ativo</string>
+    <string name="lucroLiquido">Lucro Líquido</string>
+    <string name="editLucroLiquido">Digite o valor do lucro</string>
+    <string name="patrimonioLiquido">Patrimônio líquido</string>
+    <string name="editPatrimonioLiquido">Digite o patrimônio líquido</string>
+    <string name="numeroacoes">Número de ações emitidas na bolsa</string>
+    <string name="editNumeroAcoes">Digite o número de ações</string>
+    <string name="precoAtual">Preço atual</string>
+    <string name="editPrecoAtual">Digite o preço atual</string>
+    <string name="calcular_indicadores">Calcular indicadores</string>
+    <string name="lpa">LPA</string>
+    <string name="precoLucro">Preço Lucro</string>
+    <string name="retornoSobreOPatrimonioLiquido">Retorno sobre o Patrimônio Líquido</string>
+    <string name="lucroPorAcao">Lucro por ação</string>
+    <string name="valorPatromonialPorAcao">Valor Patrimonial por ação</string>
+    <string name="precoSobreOValorPatromonial">Preço sobre o Valor Patrimonial</string>
+</resources>

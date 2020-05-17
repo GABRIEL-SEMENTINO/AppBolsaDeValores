@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00968F"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginTop="165dp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ativo" />
+
+    <EditText
+        android:id="@+id/edAtivo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:inputType="text"
+        android:hint="@string/editAtivo"
+        android:textColorHint="#cfd8dc"
+        android:textColor="#263238"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginTop="250dp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lucroLiquido"/>
+
+    <EditText
+        android:id="@+id/edLucroLiquido"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/editLucroLiquido"
+        android:textColorHint="#cfd8dc"
+        android:textColor="#263238"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginTop="340dp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/patrimonioLiquido"/>
+
+    <EditText
+        android:id="@+id/edPatrimonioLiquido"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="355dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/editPatrimonioLiquido"
+        android:textColorHint="#cfd8dc"
+        android:textColor="#263238"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginTop="425dp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/numeroacoes"/>
+
+    <EditText
+        android:id="@+id/edNumeroAcoes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="445dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/editNumeroAcoes"
+        android:textColorHint="#cfd8dc"
+        android:textColor="#263238"/>
+
+    <TextView
+        android:text="@string/precoAtual"
+        android:layout_width="300dp"
+        android:layout_marginTop="510dp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/edPrecoAtual"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/editPrecoAtual"
+        android:textColorHint="#cfd8dc"
+        android:textColor="#263238"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edPrecoAtual"
+        android:layout_alignStart="@+id/edPrecoAtual"
+        android:layout_alignEnd="@+id/edPrecoAtual"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:text="@string/calcular_indicadores"
+        android:onClick="calcular"/>
+
+</RelativeLayout>
